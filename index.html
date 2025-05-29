@@ -1,16 +1,113 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>LiveLab 4 Demo</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>Eco-Friendly Travel</title>
+  <!-- Make the layout responsive on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Basic reset for margins and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Style for the header */
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      background-color: #388e3c;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* Main content area */
+    main {
+      padding: 20px;
+    }
+
+    /* Section styles */
+    .section {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #e8f5e9;
+      border-radius: 8px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #388e3c;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Responsive styles for smaller screens */
+    @media (max-width: 600px) {
+      header, nav, main, footer {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+  <!-- Header with site title -->
+  <header>
+    <h1>Eco-Friendly Travel</h1>
+    <p>Travel Green, Travel Clean</p>
+  </header>
 
-</html>
+  <!-- Navigation links -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Tips</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Main content sections -->
+  <main>
+    <section class="section">
+      <h2>Welcome</h2>
+      <p>Discover sustainable travel ideas and tips to help you explore the world while caring for the planet.</p>
+    </section>
+    <section class="section">
+      <h2>Top Eco-Friendly Destinations</h2>
+      <ul>
+        <li>Costa Rica</li>
+        <li>Norway</li>
+        <li>New Zealand</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>Travel Tips</h2>
+      <p>Pack light, use public transport, and support local communities on your eco journey!</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Eco-Friendly Travel. All rights reserved.
+  </footer>
+  
